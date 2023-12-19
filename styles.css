@@ -28,6 +28,8 @@ body{
     list-style-type: none;
 }
 .header__item{
+    font-family: system-ui;
+    font-size: 1.25rem;
     margin: .125rem;
     padding: .25rem;
     background-color: deepskyblue;
@@ -95,4 +97,32 @@ body{
 .button-neon:active{
     box-shadow: 0 2px 25px rgba(137, 43, 226, 0.2);
     transform: scale(0.9);
+}
+
+
+
+
+
+
+
+
+.button-eversion {
+    font-family: system-ui;
+    font-size: 1rem;
+    padding: 1em 2em;
+    color: #000;
+    background-color: white;
+    border: 1px solid #979695;
+    border-radius: .5em;
+
+    box-shadow: 0.3em 0.3em 0 #dd6395;
+    text-align: center;
+    transition: all 0.35s;
+}
+
+.button-eversion:hover {
+    box-shadow: -0.3em -0.3em 0 #979695;
+    background-color: #dd6395;
+    border-color: #dd6395;
+    color: #fff;
 }
